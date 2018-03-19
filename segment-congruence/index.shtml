@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/includes/mathjax.html" -->
+
+	<title>Segment Congruence</title>
+	<meta name="description" content="This page supports the Experiment with Segment Congruence activity.">
+		
+	<script type="text/javascript">
+		WIDGETS.setWidgetsPrefs ([
+			{widget: "visibility", pages: "none"} // enable style widgets for all pages, and visibility widget for none
+		]);
+	</script>
+
+</head>
+<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->
+<div id="templatemo_content">
+<div id="templatemo_full_column">
+<div class="text_area">
+<div class="title lessonTitle">Experiment with Segment Congruence</div>
+<div class = "bodyText">
+
+<div class="section">
+	<p class="fcSectionHead">▿︎ Sketch</p>
+	<div class="jaxContainer">
+		<p>Using this sketch, you’ll demonstrate that pairs of segments are congruent by finding multiple ways to combine transformations to place one segment exactly on top of the other.</p>
+	</div>
+	<div class="fcSectionBody fcVisible">
+		<div class="sketch_container" style="width: 960px;">
+			<div class="sketch_canvas" id="sketch" data-url="./segment-congruence.json">&nbsp;</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>				
+
+<div class="section">
+	<p class="fcSectionHead">▿︎ Reflection Only</p>
+	<div class="jaxContainer">
+		<p>Using this sketch, you’ll construct reflections to demonstrate that pairs of segments are congruent.</p>
+	</div>
+	<div class="fcSectionBody fcVisible">
+		<div class="sketch_container" style="width: 960px;">
+			<div class="sketch_canvas" id="sketch2" data-url="./segment-congruence-reflection.json">&nbsp;</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>				
+
+<div class="section">
+	<p class="fcSectionHead" style="font-size: .8rem">▹︎︎ The Fine Print</p>
+	<div class="fcSectionBody finePrint">
+		<p><strong>Requirements:</strong></p>
+		<p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
+		<p><strong>Release Information</strong></p>
+	 <!--#include virtual="/includes/v4.5/js/js-version.html" -->
+		<p><strong>Update History:</strong></p>
+	 <div class="updateHistory">
+			19 Oct 2017: Created this page.<br>
+	 </div>
+		<br>
+	</div>
+</div>
+
+</div> <!-- bodyText -->
+
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+       
+</body>
+</html>

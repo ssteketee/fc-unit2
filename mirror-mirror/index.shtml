@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/includes/mathjax.html" -->
+
+	<title>Mirror, Mirror</title>
+	<meta name="description" content="This page supports the Mirror, Mirror lesson.">
+
+	<script type="text/javascript">
+		WIDGETS.setWidgetsPrefs ([
+			{widget: "visibility", pages: "none"} // enable style widgets for all pages, and visibility widget for none
+		]);
+	</script>
+
+</head>
+<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->
+<div id="templatemo_content">
+<div id="templatemo_full_column">
+<div class="text_area">
+<div class="title lessonTitle">Mirror, Mirror</div>
+<div class = "bodyText">
+
+<!--<div class="section">
+	<p class="fcSectionHead">▿︎ Orientation 1</p>
+	<div class="jaxContainer">
+		<p>Using this sketch, you’ll determine how each transformation affects the clockwise or counter-clockwise orientation of the transformed image.</p>
+	</div>
+	<div class="fcSectionBody fcVisible">
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-url="./mirror-mirror1.json">&nbsp;</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>
+-->
+
+<div class="section">
+	<p class="fcSectionHead">▿︎ Orientation</p>
+	<div class="jaxContainer twoColumn">
+		<p>Each page of this activity has an independent variable that can move along a restricted domain (a triangle). You’ll transform the variable, using a different function on each page, and investigate whether the dependent variable has the same orientation (both clockwise or both counter-clockwise) or a different orientation compared to the independent variable.</p>
+	</div>
+	<div class="fcSectionBody fcVisible">
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-url="./mirror-mirror-orientation.json">&nbsp;</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>				
+
+<div class="section">
+	<p class="fcSectionHead">▹︎ Explore Multiple Reflections</p>
+	<div class="jaxContainer twoColumn">
+		<p>On the pages of this activity you’ll reflect the independent variable (along with its domain) once, twice, or three times. In each case you’ll see if you can find a function from a different transformation family that produces the exact same result as the combination of reflect functions you used.</p>
+	</div>
+	<div class="fcSectionBody">
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./mirror-mirror-explore.json">&nbsp;</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>				
+
+<div class="section">
+	<p class="fcSectionHead">▹︎ Construct Multiple Reflections</p>
+	<div class="jaxContainer twoColumn">
+		<p>On each page of this activity you’ll try to construct multiple reflect functions to produce the exact same result as other transformations. The functions you'll try to construct this way include a rotate function (page 2), a translate function (page 3), a glide reflection (page 4), and a dilate function (page 5). (Hint: all of these except one are possible.)</p>
+	</div>
+	<div class="fcSectionBody">
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./mirror-mirror-construct.json">&nbsp;</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>				
+
+<div class="section">
+	<p class="fcSectionHead" style="font-size: .8rem">▹︎︎ The Fine Print</p>
+	<div class="fcSectionBody finePrint">
+		<p><strong>Requirements:</strong></p>
+		<p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
+		<p><strong>Release Information</strong></p>
+	 <!--#include virtual="/includes/v4.5/js/js-version.html" -->
+		<p><strong>Update History:</strong></p>
+	 <div class="updateHistory">
+			19 Oct 2017: Created this page.<br>
+	 </div>
+		<br>
+	</div>
+</div>
+
+</div> <!-- bodyText -->
+
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+       
+</body>
+</html>

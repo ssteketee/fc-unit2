@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/includes/mathjax.html" -->
+	
+	<title>Mystery Transformations</title>
+	<meta name="description" content="This page supports the Mystery Transformations activity.">
+
+	<script type="text/javascript">
+		WIDGETS.setWidgetsPrefs ([
+			{widget: "visibility", pages: "none"} // enable style widgets for all pages, and visibility widget for none
+		]);
+	</script>
+
+</head>
+<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->
+<div id="templatemo_content">
+<div id="templatemo_full_column">
+<div class="text_area">
+<div class="title lessonTitle">Mystery Transformations</div>
+<div class = "bodyText">
+
+	<div class="jaxContainer twoColumn">
+		<p>In each mystery you are given two triangles that are related by a function belonging to one of five function families: rotate, reflect, translate, glide reflect, or dilate. Your task is use one of the tools to construct an image of `triABC` and then adjust your function (by adjusting the center, mirror, vector, angle, of scale factor) to demonstrate that the two triangles are congruent or similar.</p>
+		<p><strong>Mystery 1:</strong> Each page tells you what function family to use. Your task is to apply that function to `triABC` and then adjust your function so that `triA'B'C'` lies directly on top of `triDEF`.</p>
+		<p><strong>Mystery 2:</strong> On each page you have to decide which function family to use before you apply your function to `triABC` and adjust it to superpose `triA'B'C'` on `triDEF`.</p>
+		<p><strong>Mystery 3:</strong> The function tools give you only an independent and dependent variable. On each page you have to choose the function family, restrict `x` to `triABC` as its domain, and adjust your function so that the range is `triDEF`.</p>
+	</div>
+	
+<div class="section">
+	<p class="fcSectionHead">▹︎▿︎ Mystery 1: Demonstrate Congruence or Similarity</p>
+	<div class="fcSectionBody fcVisible">
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-url="./mystery-transformations1.json">Loading...</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>
+		</div>		
+	</div>
+</div>				
+
+<div class="section">
+	<p class="fcSectionHead">▹︎ Mystery 2: Choose the Function</p>
+	<div class="fcSectionBody">
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./mystery-transformations2.json">Loading...</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>
+		</div>		
+	</div>
+</div>				
+
+<div class="section">
+	<p class="fcSectionHead">▹︎ Mystery 3: Match the Domain and Range</p>
+	<div class="fcSectionBody">
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./mystery-transformations3.json">Loading...</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>
+		</div>		
+	</div>
+</div>				
+
+<div class="section">
+	<p class="fcSectionHead" style="font-size: .8rem">▹︎︎ The Fine Print</p>
+	<div class="fcSectionBody finePrint">
+		<p><strong>Requirements:</strong></p>
+		<p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
+		<p><strong>Release Information</strong></p>
+	 <!--#include virtual="/includes/v4.5/js/js-version.html" -->
+		<p><strong>Update History:</strong></p>
+	 <div class="updateHistory">
+			19 Oct 2017: Created this page.<br>
+	 </div>
+		<br>
+	</div>
+</div>
+
+</div> <!-- bodyText -->
+
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+       
+</body>
+</html>

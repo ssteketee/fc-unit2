@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/includes/mathjax.html" -->
+
+	<title>The SSS Theorem</title>
+	<meta name="description" content="This page supports the Mystery Transformations activity.">
+
+	<script type="text/javascript">
+		WIDGETS.setWidgetsPrefs ([
+			{widget: "visibility", sketches: "sss1, sss2", pages: "none"}
+		]);
+	</script>
+
+</head>
+<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->
+<div id="templatemo_content">
+<div id="templatemo_full_column">
+<div class="text_area">
+<div class="title lessonTitle">The SSS Theorem</div>
+<div class = "bodyText">
+	
+<div class = "twoColumn">
+	<p>In this activity you'll investigate whether having the three sides of one triangle equal in length to the three sides of another triangle means that the two triangles must be <em>congruent</em>. If this is true, there must be a rigid motion (a transformation) that superposes the image of one triangle on the other triangle, and your task will be to do the construction and describe your strategy. If this is false, your task will be to construct a counter-example.</p>
+	<p>In the first websketch you’ll use SSS to construct some triangles.</p>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">▹ What is SSS?</p>
+	<div class="fcSectionBody fcVisible">
+		<div class="jaxContainer twoColumn">
+			<p>SSS stands for “Side-Side-Side” and refers to a pair of triangles in which the three sides of one triangle are exactly the same lengths as the three sides of the other triangle.</p>
+			<ol>
+				<li>On page 1 you’ll construct a triangle using the lengths of the three given segments.</li>
+				<li>On page 2 you’ll construct two triangles of different orientation using the side lengths of the given triangle.</li>
+			</ol>
+			<p>(Two triangles have the same orientation if the corresponding sides in the triangles are arranged both in clockwise order or both in counterclockwise order. Two triangles have different orientation if the corresponding sides are in clockwise order in one triangle, but in counter-clockwise order in the other.)</p>
+		</div>
+		<div class="sketch_container">
+			<div class="sketch_canvas" id="sss1" data-url="./sss1.json">&nbsp;</div>
+			<div class="sketch_caption"><p>Video hints are not yet available.</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">▹︎︎ SSS Superposition by Adjustment</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer twoColumn">
+			<p>On each page, use the reflect function to superpose the image of `triABC` on `triDEF`. Some pages will require you to use the reflect function more than once.</p>
+		</div>
+		<div class="sketch_container">
+			<div class="sketch_canvas" id="sss2" data-delayed-url="./sss2.json">&nbsp;</div>
+			<div class="sketch_caption"><p>Video hints are not yet available.</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">▹︎︎ Superposition by a Single Transformation</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer">
+			<p>In this sketch you’ll use a single transformation to show superposition for any pair of congruent triangles.</p>
+		</div>
+		<div class="sketch_container">
+			<div class="sketch_canvas" id="sss3" data-delayed-url="./sss3.json">&nbsp;</div>
+			<div class="sketch_caption"><p>Video hints are not yet available.</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">▹︎︎ Construct the Superposition</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer">
+			<p>In this sketch you’ll <em>construct</em> a single transformation to show superposition for any pair of congruent triangles.</p>
+		</div>
+		<div class="sketch_container">
+			<div class="sketch_canvas" id="sss4" data-delayed-url="./sss4.json">&nbsp;</div>
+			<div class="sketch_caption"><p>Video hints are not yet available.</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead" style="font-size: .8rem">▹︎︎ The Fine Print</p>
+	<div class="fcSectionBody finePrint">
+		<p><strong>Requirements:</strong></p>
+		<p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
+		<p><strong>Release Information</strong></p>
+	 <!--#include virtual="/includes/v4.5/js/js-version.html" -->
+		<p><strong>Update History:</strong></p>
+	 <div class="updateHistory">
+			24 Oct 2017: Created this page.<br>
+	 </div>
+		<br>
+	</div>
+</div>
+
+</div> <!-- bodyText -->
+
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+       
+</body>
+</html>
