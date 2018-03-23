@@ -25,7 +25,7 @@
 <div class = "bodyText">
 
 <div class="section">
-	<p class="fcSectionHead">▿︎ Sketch</p>
+	<p class="fcSectionHead">1 Sketch</p>
 	<div class="jaxContainer">
 		<p>Using this sketch, you’ll demonstrate that pairs of segments are congruent by finding multiple ways to combine transformations to place one segment exactly on top of the other.</p>
 	</div>
@@ -39,7 +39,7 @@
 </div>				
 
 <div class="section">
-	<p class="fcSectionHead">▿︎ Reflection Only</p>
+	<p class="fcSectionHead">2 Reflection Only</p>
 	<div class="jaxContainer">
 		<p>Using this sketch, you’ll construct reflections to demonstrate that pairs of segments are congruent.</p>
 	</div>
@@ -53,7 +53,7 @@
 </div>				
 
 <div class="section">
-	<p class="fcSectionHead" style="font-size: .8rem">▹︎︎ The Fine Print</p>
+	<p class="fcSectionHead" style="font-size: .8rem">3 The Fine Print</p>
 	<div class="fcSectionBody finePrint">
 		<p><strong>Requirements:</strong></p>
 		<p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>

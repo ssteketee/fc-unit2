@@ -40,7 +40,7 @@
 -->
 
 <div class="section">
-	<p class="fcSectionHead">▿︎ Orientation</p>
+	<p class="fcSectionHead">1 Orientation</p>
 	<div class="jaxContainer twoColumn">
 		<p>Each page of this activity has an independent variable that can move along a restricted domain (a triangle). You’ll transform the variable, using a different function on each page, and investigate whether the dependent variable has the same orientation (both clockwise or both counter-clockwise) or a different orientation compared to the independent variable.</p>
 	</div>
@@ -54,7 +54,7 @@
 </div>				
 
 <div class="section">
-	<p class="fcSectionHead">▹︎ Explore Multiple Reflections</p>
+	<p class="fcSectionHead">2 Explore Multiple Reflections</p>
 	<div class="jaxContainer twoColumn">
 		<p>On the pages of this activity you’ll reflect the independent variable (along with its domain) once, twice, or three times. In each case you’ll see if you can find a function from a different transformation family that produces the exact same result as the combination of reflect functions you used.</p>
 	</div>
@@ -68,7 +68,7 @@
 </div>				
 
 <div class="section">
-	<p class="fcSectionHead">▹︎ Construct Multiple Reflections</p>
+	<p class="fcSectionHead">3 Construct Multiple Reflections</p>
 	<div class="jaxContainer twoColumn">
 		<p>On each page of this activity you’ll try to construct multiple reflect functions to produce the exact same result as other transformations. The functions you'll try to construct this way include a rotate function (page 2), a translate function (page 3), a glide reflection (page 4), and a dilate function (page 5). (Hint: all of these except one are possible.)</p>
 	</div>
@@ -82,7 +82,7 @@
 </div>				
 
 <div class="section">
-	<p class="fcSectionHead" style="font-size: .8rem">▹︎︎ The Fine Print</p>
+	<p class="fcSectionHead" style="font-size: .8rem">4 The Fine Print</p>
 	<div class="fcSectionBody finePrint">
 		<p><strong>Requirements:</strong></p>
 		<p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>

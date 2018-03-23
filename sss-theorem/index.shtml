@@ -30,7 +30,7 @@
 </div>
 
 <div class="section">
-	<p class="fcSectionHead">▹ What is SSS?</p>
+	<p class="fcSectionHead"1 What is SSS?</p>
 	<div class="fcSectionBody fcVisible">
 		<div class="jaxContainer twoColumn">
 			<p>SSS stands for “Side-Side-Side” and refers to a pair of triangles in which the three sides of one triangle are exactly the same lengths as the three sides of the other triangle.</p>
@@ -50,7 +50,7 @@
 </div>
 
 <div class="section">
-	<p class="fcSectionHead">▹︎︎ SSS Superposition by Adjustment</p>
+	<p class="fcSectionHead">2 SSS Superposition by Adjustment</p>
 	<div class="fcSectionBody">
 		<div class="jaxContainer twoColumn">
 			<p>On each page, use the reflect function to superpose the image of `triABC` on `triDEF`. Some pages will require you to use the reflect function more than once.</p>
@@ -65,7 +65,7 @@
 </div>
 
 <div class="section">
-	<p class="fcSectionHead">▹︎︎ Superposition by a Single Transformation</p>
+	<p class="fcSectionHead">3 Superposition by a Single Transformation</p>
 	<div class="fcSectionBody">
 		<div class="jaxContainer">
 			<p>In this sketch you’ll use a single transformation to show superposition for any pair of congruent triangles.</p>
@@ -80,7 +80,7 @@
 </div>
 
 <div class="section">
-	<p class="fcSectionHead">▹︎︎ Construct the Superposition</p>
+	<p class="fcSectionHead">4 Construct the Superposition</p>
 	<div class="fcSectionBody">
 		<div class="jaxContainer">
 			<p>In this sketch you’ll <em>construct</em> a single transformation to show superposition for any pair of congruent triangles.</p>
@@ -95,7 +95,7 @@
 </div>
 
 <div class="section">
-	<p class="fcSectionHead" style="font-size: .8rem">▹︎︎ The Fine Print</p>
+	<p class="fcSectionHead" style="font-size: .8rem">5 The Fine Print</p>
 	<div class="fcSectionBody finePrint">
 		<p><strong>Requirements:</strong></p>
 		<p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>

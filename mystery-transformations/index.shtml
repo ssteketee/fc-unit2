@@ -32,7 +32,7 @@
 	</div>
 	
 <div class="section">
-	<p class="fcSectionHead">▹︎▿︎ Mystery 1: Demonstrate Congruence or Similarity</p>
+	<p class="fcSectionHead">1 Mystery 1: Demonstrate Congruence or Similarity</p>
 	<div class="fcSectionBody fcVisible">
 		<div class="sketch_container">
 			<div class="sketch_canvas" data-url="./mystery-transformations1.json">Loading...</div>
@@ -43,7 +43,7 @@
 </div>				
 
 <div class="section">
-	<p class="fcSectionHead">▹︎ Mystery 2: Choose the Function</p>
+	<p class="fcSectionHead">2 Mystery 2: Choose the Function</p>
 	<div class="fcSectionBody">
 		<div class="sketch_container">
 			<div class="sketch_canvas" data-delayed-url="./mystery-transformations2.json">Loading...</div>
@@ -54,7 +54,7 @@
 </div>				
 
 <div class="section">
-	<p class="fcSectionHead">▹︎ Mystery 3: Match the Domain and Range</p>
+	<p class="fcSectionHead">3 Mystery 3: Match the Domain and Range</p>
 	<div class="fcSectionBody">
 		<div class="sketch_container">
 			<div class="sketch_canvas" data-delayed-url="./mystery-transformations3.json">Loading...</div>
@@ -65,7 +65,7 @@
 </div>				
 
 <div class="section">
-	<p class="fcSectionHead" style="font-size: .8rem">▹︎︎ The Fine Print</p>
+	<p class="fcSectionHead" style="font-size: .8rem">4 The Fine Print</p>
 	<div class="fcSectionBody finePrint">
 		<p><strong>Requirements:</strong></p>
 		<p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
