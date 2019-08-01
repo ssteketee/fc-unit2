@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/fc/includes/head.shtml" -->
   <!--#include virtual="/includes/mathjax.html" -->
 
 	<title>Mirror, Mirror</title>
@@ -40,13 +40,15 @@
 -->
 
 <div class="section">
-	<p class="fcSectionHead">1 Orientation</p>
-	<div class="jaxContainer twoColumn">
-		<p>Each page of this activity has an independent variable that can move along a restricted domain (a triangle). You’ll transform the variable, using a different function on each page, and investigate whether the dependent variable has the same orientation (both clockwise or both counter-clockwise) or a different orientation compared to the independent variable.</p>
-	</div>
+	<p class="fcSectionHead fcOpen">1 Handedness</p>
 	<div class="fcSectionBody fcVisible">
+		<div class="jaxContainer twoColumn">
+			<p>Each page of this activity has an independent variable that can move along a restricted domain (a triangle). You’ll transform the variable, using a different function on each page, and investigate whether the dependent variable has the same handedness (both clockwise or both counter-clockwise) or a different orientation compared to the independent variable.</p>
+			<p>(The mathematical term <em>handedness</em> distinguishes objects like your hands or your feet, which are opposite from each other even though they have the same shape. You distinguish your hands by calling them <em>right</em> and <em>left</em>. We will call `triABC` <em>clockwise</em> or <em>counter-clockwise</em> based on the way `x` travels as it varies from `A` to `B` to `C`.) </p>
+		</div>
 		<div class="sketch_container">
-			<div class="sketch_canvas" data-url="./mirror-mirror-orientation.json">&nbsp;</div>
+			<div class="sketch_canvas" data-url="./mirror-mirror-handedness.json">&nbsp;</div>
+			<p><a href="mirror-mirror-worksheet.pdf">Download lesson worksheet</a></p>
 			<div class="page_buttons"></div>
 			<button class="widget_button"></button>			
 		</div>		
@@ -55,10 +57,10 @@
 
 <div class="section">
 	<p class="fcSectionHead">2 Explore Multiple Reflections</p>
-	<div class="jaxContainer twoColumn">
-		<p>On the pages of this activity you’ll reflect the independent variable (along with its domain) once, twice, or three times. In each case you’ll see if you can find a function from a different transformation family that produces the exact same result as the combination of reflect functions you used.</p>
-	</div>
 	<div class="fcSectionBody">
+		<div class="jaxContainer twoColumn">
+			<p>On the pages of this activity you’ll reflect the independent variable (along with its domain) two or three times. In each case you’ll see if you can find a function from a different transformation family that produces the exact same result as the combination of reflect functions you used.</p>
+		</div>
 		<div class="sketch_container">
 			<div class="sketch_canvas" data-delayed-url="./mirror-mirror-explore.json">&nbsp;</div>
 			<div class="page_buttons"></div>
@@ -69,10 +71,10 @@
 
 <div class="section">
 	<p class="fcSectionHead">3 Construct Multiple Reflections</p>
-	<div class="jaxContainer twoColumn">
-		<p>On each page of this activity you’ll try to construct multiple reflect functions to produce the exact same result as other transformations. The functions you'll try to construct this way include a rotate function (page 2), a translate function (page 3), a glide reflection (page 4), and a dilate function (page 5). (Hint: all of these except one are possible.)</p>
-	</div>
 	<div class="fcSectionBody">
+		<div class="jaxContainer twoColumn">
+			<p>On each page of this activity you’ll try to construct multiple reflect functions to produce the exact same result as other transformations. The functions you'll try to construct this way include a rotate function (page 2), a translate function (page 3), a glide reflection (page 4), and a dilate function (page 5). (Hint: all of these except one are possible.)</p>
+		</div>
 		<div class="sketch_container">
 			<div class="sketch_canvas" data-delayed-url="./mirror-mirror-construct.json">&nbsp;</div>
 			<div class="page_buttons"></div>
@@ -82,7 +84,7 @@
 </div>				
 
 <div class="section">
-	<p class="fcSectionHead" style="font-size: .8rem">4 The Fine Print</p>
+	<p class="fcSectionHead" style="font-size: .8rem">The Fine Print</p>
 	<div class="fcSectionBody finePrint">
 		<p><strong>Requirements:</strong></p>
 		<p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
@@ -90,6 +92,7 @@
 	 <!--#include virtual="/includes/v4.5/js/js-version.html" -->
 		<p><strong>Update History:</strong></p>
 	 <div class="updateHistory">
+			10 Apr 2018: Regularized vocabulary to use "handedness", revised given order of tool objects, and started the teacher notes.<br>
 			19 Oct 2017: Created this page.<br>
 	 </div>
 		<br>

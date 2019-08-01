@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/fc/includes/head.shtml" -->
   <!--#include virtual="/includes/mathjax.html" -->
 	
 	<title>Mystery Transformations</title>
@@ -10,7 +10,8 @@
 
 	<script type="text/javascript">
 		WIDGETS.setWidgetsPrefs ([
-			{widget: "visibility", pages: "none"} // enable style widgets for all pages, and visibility widget for none
+			{widget: "visibility", pages: "none"}, // enable style widgets for all pages, and visibility widget for none
+			{widget: "visibility", sketches: "mystery1"}
 		]);
 	</script>
 
@@ -32,10 +33,17 @@
 	</div>
 	
 <div class="section">
-	<p class="fcSectionHead">1 Mystery 1: Demonstrate Congruence or Similarity</p>
+	<p class="fcSectionHead fcOpen">1 Mystery 1: Demonstrate Congruence or Similarity</p>
 	<div class="fcSectionBody fcVisible">
+	<div class="jaxContainer twoColumn">
+		<p>On each page, use a different transformations to superpose an image of `triABC` on `triDEF`.</p>
+		<p>You can use the designated transformation tool and adjust the function rule to superpose the two triangles. You may find the construction tools useful in this process.</p>
+		<p>Press the New Case button for a new `triABC` and a new function rule (still using the same function family).</p>
+		<p>How can the construction tools make it easier to solve new cases?</p>
+	</div>
 		<div class="sketch_container">
-			<div class="sketch_canvas" data-url="./mystery-transformations1.json">Loading...</div>
+			<div class="sketch_canvas" id="mystery1" data-url="./mystery-transformations1.json">Loading...</div>
+			<div class="util-menu-btn"></div>
 			<div class="page_buttons"></div>
 			<button class="widget_button"></button>
 		</div>		
@@ -45,8 +53,14 @@
 <div class="section">
 	<p class="fcSectionHead">2 Mystery 2: Choose the Function</p>
 	<div class="fcSectionBody">
+	<div class="jaxContainer twoColumn">
+		<p>On each page, you must first figure out what transformation connects the two triangles.</p>
+		<p>Then perform the necessary construction to superpose an image of `triABC` on `triDEF`.</p>
+		<p>Record the features you used, on each page, to identify the correct function to use.</p>
+	</div>
 		<div class="sketch_container">
 			<div class="sketch_canvas" data-delayed-url="./mystery-transformations2.json">Loading...</div>
+			<div class="util-menu-btn"></div>
 			<div class="page_buttons"></div>
 			<button class="widget_button"></button>
 		</div>		
@@ -58,14 +72,32 @@
 	<div class="fcSectionBody">
 		<div class="sketch_container">
 			<div class="sketch_canvas" data-delayed-url="./mystery-transformations3.json">Loading...</div>
+			<div class="util-menu-btn"></div>
 			<div class="page_buttons"></div>
 			<button class="widget_button"></button>
 		</div>		
 	</div>
-</div>				
+</div>
 
 <div class="section">
-	<p class="fcSectionHead" style="font-size: .8rem">4 The Fine Print</p>
+	<p class="fcSectionHead">4 Objectives</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer twoColumn">
+			<p>As you perform the activities in this lesson, you will:</p>
+			<ol>
+				<li>Apply transformations to triangles.</li>
+				<li>Use transformations to superpose one triangle on another, experimenting with the function rule to make them fit exactly.</li>
+				<li>Determine which transformations are isometries; that is, which preserve distances.</li>
+				<li>Describe the meaning of “superpose” and “superposition” in your own words.</li>
+				<li>Given two triangles, identify which transformation allows you to superpose one on the other.</li>
+				<li>Describe transforming one point to another is related to transforming one triangle to another.</li>
+			</ol>
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead" style="font-size: .8rem">The Fine Print</p>
 	<div class="fcSectionBody finePrint">
 		<p><strong>Requirements:</strong></p>
 		<p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
@@ -73,7 +105,7 @@
 	 <!--#include virtual="/includes/v4.5/js/js-version.html" -->
 		<p><strong>Update History:</strong></p>
 	 <div class="updateHistory">
-			19 Oct 2017: Created this page.<br>
+			21 July 2018: Created this page.<br>
 	 </div>
 		<br>
 	</div>

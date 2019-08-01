@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/fc/includes/head.shtml" -->
   <!--#include virtual="/includes/mathjax.html" -->
 
 	<title>The SSS Theorem</title>
@@ -25,7 +25,7 @@
 <div class = "bodyText">
 	
 <div class = "twoColumn">
-	<p>In this activity you'll investigate whether having the three sides of one triangle equal in length to the three sides of another triangle means that the two triangles must be <em>congruent</em>. If this is true, there must be a rigid motion (a transformation) that superposes the image of one triangle on the other triangle, and your task will be to do the construction and describe your strategy. If this is false, your task will be to construct a counter-example.</p>
+	<p>In this lesson you'll investigate whether having the three sides of one triangle equal in length to the three sides of another triangle means that the two triangles must be <em>congruent</em>. If this is true, there must be a rigid motion (a transformation) that superposes the image of one triangle on the other triangle, and your task will be to do the construction and describe your strategy. If this is false, your task will be to construct a counter-example.</p>
 	<p>In the first websketch you’ll use SSS to construct some triangles.</p>
 </div>
 

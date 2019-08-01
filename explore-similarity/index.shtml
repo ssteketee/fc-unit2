@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/fc/includes/head.shtml" -->
+  <!--#include virtual="/includes/mathjax.html" -->
+	
+	<title>Explore Similar Triangles</title>
+	<meta name="description" content="This page supports the Explore Similar Triangles activity.">
+
+	<script type="text/javascript">
+		WIDGETS.setWidgetsPrefs ([
+			{widget: "visibility", pages: "none"},
+			{sketches: "dilate-games", pages: "none"}
+		]);
+	</script>
+	
+</head>
+<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->
+<div id="templatemo_content">
+<div id="templatemo_full_column">
+<div class="text_area">
+<div class="title lessonTitle">Explore Similar Triangles</div>
+<div class = "bodyText">
+	
+<div class="section">
+	<p class="fcSectionHead fcOpen">1 Warm-Up</p>
+	<div class="fcSectionBody fcVisible">
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-url="./similarity-warm-up.json">Loading...</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>
+			<p>Can you make it?</p>
+		</div>		
+	</div>
+</div>				
+
+<div class="section">
+	<p class="fcSectionHead">2 Dilate Games</p>
+	<div class="fcSectionBody">
+		<div class="sketch_container">
+			<div class="sketch_canvas" id="dilate-games" data-delayed-url="./dilate-games.json">Loading...</div>
+			<div class="page_buttons"></div>
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">3 Explore Similarity</p>
+	<div class="fcSectionBody">
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./explore-similar.json">Loading...</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">4 Similarity Designs</p>
+	<div class="fcSectionBody">
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./similarity-designs.json">Loading...</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead" style="font-size: .8rem">4 The Fine Print</p>
+	<div class="fcSectionBody finePrint">
+		<p><strong>Requirements:</strong></p>
+		<p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
+		<p><strong>Release Information</strong></p>
+	 <!--#include virtual="/includes/v4.5/js/js-version.html" -->
+		<p><strong>Update History:</strong></p>
+	 <div class="updateHistory">
+			23 April 2018: Uploaded version 1 of this page.<br>
+	 </div>
+		<br>
+	</div>
+</div>
+
+</div> <!-- bodyText -->
+
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+       
+</body>
+</html>

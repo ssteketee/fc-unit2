@@ -1,0 +1,35 @@
+Get Started
+	<h4>Prerequisites</h4>
+	<p>Begin with a short activity that reviews what students can use to prove SSS:</p><ol>
+		<li>Definition of Reflected Image: The reflected image of `A` in line `m` is `A` itself (if `A` lies on `m`). If `A` does not lie on `m`, the reflected image of `A` is the point `B` such that `m` is the perpendicular bisector of `overline(AB)`.</li>
+		<li>This definition allows you to find the mirror given a point `A` and its reflected image `B`. (Perpendicular Bisector tool)</li>
+		<li>It also allows you to find the reflected image `B`, given point `A` and mirror `m`. (Reflect Tool)</li>
+		<li>Perpendicular Bisector Theorem: Given `P` on the perpendicular bisector `m` of `overline(AB)`, `|PA| = |PB|`.</li>
+		<li>Converse of Perpendicular Bisector Theorem: Given `|PA| = |PB|`, with `P,` `A,` and `B` distinct, `P` lies on the perpendicular bisector `m` of `overline(AB)`.</li>
+		<li>We will assume that reflection, as defined above, is an isometry (a rigid motion).</li>
+	</ol>
+	<p>These starting elements differ from the approach taken by the PCMI course, which defines reflection differently, as follows:</p>
+	<p>For any line `m` in the plane, there exists an isometry `R_m` called "reflection in `m`" such that every point in `m` is mapped to itself, but there are no other fixed points.</p>
+	<h4>Construction-Based Proof</h4>
+	<p>Given: `tri ABC` and `tri DEF`, with `AB \cong DE`, `AC \cong DF`, and `BC \cong EF`.</p>
+	<p>Prove: `tri ABC \cong tri DEF`.</p>
+	<ol>
+		<li>If `tri ABC` and `tri DEF` are both CW or both CCW, reflect `triABC` in `overlineAB`. Consider this reflected image to be `tri ABC` for the remainder of this argument. Now `tri ABC` and `tri DEF` are of opposite handedness.</li>
+		<li>Construct the perpendicular bisector `k` of `overline(AD)`.</li>
+		<li>Reflect `triABC` in `k`. Now `A'` is superposed on `D`.</li>
+		<li>Construct the perpendicular bisector `m` of `overline(B'E)`.</li>
+		<li>Perpendicular bisector `m` passes through the superposed point `A'`. The reasoning is that `|AB| = |DE|` (given), so `|A'B'| = |DE|` (reflection preserves distances). Because `A'` and `D` are superposed, `|A'B|' = |A'E|`. Therefore `A'` must lie on `m`, the perpendicular bisector of `B'E`. (Converse of the perpendicular bisector theorem).</li>
+		<li>Reflect `triA'B'C'` in `m`. Now `B''` is superposed on `E`. Point `A'` lies on `m` and is its own reflected image, so `A'` and `A''` are both superposed on `D`.</li>
+		<li>Each reflection (in `k` and `m`) has reversed the handedness of `triABC`, so `triA''B''C''` has the same handedness as `triABC` and is of opposite handedness from `triDEF`, with `A''` superposed on `D` and `B''` superposed on `E`.</li>
+		<li>Construct the perpendicular bisector `n` of `overline(C''F`. By the converse of the perpendicular bisector theorem, it passes through `E`/`B''` (because `|BC| = |EF|`) and also through `D`/`A''` (because `|AC| = |DF|`). </li>
+		<li>Reflect `triA''B''C''` in `n`. Both `A''` and `B''` remain fixed, since they lie on `n`, and `C'''` is now superposed on `F` (by the definition of reflection).</li>
+	</ol>
+	<p>The elements of the definition of reflection correspond nicely to tools. But the Perpendicular Bisector Theorem and its converse don't correspond as nicely to tools. This is presumably one place where Wayne's work with cards can play out strongly.</p>
+	<p>[Might there be a tool we could invent for such a purpose? Though it's not within current WSP capability, what if the student could click a tool on `overline(AB)` and on `P`, and a text object appears that says either "`P` lies on the perpendicular bisector of `overline(AB)`, so `|PA| = |PB|`" or "`P` does not lie on the perpendicular bisector of `overline(AB)`, so `|PA| \ne |PB|`".]</p>
+	<p>One way of connecting these approaches, I think, might be to have two types of cards: Cards that correspond to constructions, and cards that are used to explain certain consequences of the constructions. Though a drag test can be used to verify such consequences empirically, identifying the proper card has explanatory value that the drag test doesn't.</p>
+	<h4>Activities</h4>
+		<p>I've added two initial sketches, to review the definition of reflection and to review the Perpendicular Bisector Theorem and its converse.</p>
+
+The Perpendicular Bisector Theorem
+	<p>The vision for this sketch is that students should be able to think of this page, and this theorem, when they're about to do something that requires a point to be on a specific perpendicular bisector. The current plan is to implement a game in which students are presented with a figure in which two segments are attached by a common endpoint, and are asked to figure out whether it's possible to reflect one segment onto the other. They have available only the PBT Converse tool, so their job is to use that tool to figure out if the reflection is possible. After using the tool, they press a Predict button: ("I Predict: Yes" and "I Predict: No").</p>
+	<p>After pressing the button, an animation appears: first the perpendicular bisector appears, and then the reflection is animated using the perpendicular bisector as its mirror. There's a New Case button that randomly gemerates a new case that either works or doesn't (and also undoes whatever tools the student has used).</p>

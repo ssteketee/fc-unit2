@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/fc/includes/head.shtml" -->
+
+	<title>The SSS Theorem</title>
+	<meta name="description" content="This page supports the Mystery Transformations activity.">
+
+	<script type="text/javascript">
+		WIDGETS.setWidgetsPrefs ([
+			{widget: "visibility", sketches: "sss2", pages: "none"}
+		]);
+	</script>
+
+</head>
+<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->
+<div id="templatemo_content">
+<div id="templatemo_full_column">
+<div class="text_area">
+<div class="title lessonTitle">The SSS Theorem
+	<div class="notesButton buttontip" onclick=
+			 "window.open('./prove-sss-worksheet.pdf');
+			 $('#download-text').hide().html('Downloading...').fadeIn(500).delay(500).fadeOut(500).html('Download worksheet');">
+	 Ⓦ 
+		<span class="buttontiptext" id="download-text">Download worksheet</span>
+	</div>
+</div>
+<div class = "bodyText">
+	
+<div class = "twoColumn">
+	<p>In this lesson you’ll prove an important geometric fact: The Side-Side-Side Theorem (SSS).</p>
+	<p style="border: 1px solid black; padding:0px 5px;">If the three sides of one triangle are respectively equal in length to the sides of another triangle, then the two triangles must be <em>congruent</em>.</p>
+	<p>In Activities 1 and 2, you will review some information that will help you explain the proof.</p>
+	<p>In Activity 3 you will practice a technique that will help you construct your proof.</p>
+	<p>In Activity 4, you will construct the superposition of SSS triangles, and you will explain why the steps of your construction help to prove the SSS Theorem.</p>
+	<p style="color: #f44">[17 April 2018: Improved activities 3 and 4 with new tools, animations, and more.]</p>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead fcOpen">1 Define Reflection</p>
+	<div class="fcSectionBody fcVisible">
+		<div class="jaxContainer">
+			<p>Here’s one way to define <em>reflection:</em></p>
+			<p>Dependent point `x'` is the reflection of independent point `x` in mirror `m` if and only if line `m` is the perpendicular bisector of segment `overline(x x')`.</p>
+			<p>This definition works two ways:</p>
+			<ul>
+				<li>If `x'` is the reflection of `x,` the mirror is the perpendicular bisector of `overline(x x').` (This means you can use Perpendicular Bisector tool to construct a mirror that reflects `x` to `w.`</li>
+				<li>If `m` is the perpendicular bisector of `overline(x x')`, `x'` is the reflection of `x` in mirror `m.` (This means that when you use the Reflect tool to reflect `tri xyz` across `m,` point `x` will be reflected to `x'`.)</li>
+			</ul>
+		</div>
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-url="./sss1.json">&nbsp;</div>
+			<div class="sketch_caption"><p><a href="./prove-sss-worksheet.pdf">Download the worksheet</a></p></div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">2 The Perpendicular Bisector Theorem</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer">
+			<ul>
+				<li><strong>Theorem:</strong> If a point is on the perpendicular bisector of a segment, it is equidistant from the endpoints of the segment.</li>
+				<li><strong>Converse:</strong> If a point is equidistant from the endpoints of a segment, it is on the perpendicular bisector of the segment.</li>
+			</ul>
+			<p>Use page 1 to explore the theorem, and page 2 to explore its converse.</p>
+			<p>Can you explain why each of these must be true, using what you know about the reflect function.</p>
+		</div>
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./sss2.json">&nbsp;</div>
+			<div class="sketch_caption"><p>Video hints are not yet available.</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">3 Superpose Congruent Segments</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer">
+			<p>To prove that two segments are congruent, transform one segment to superpose its image on the other. Then use the drag test to be sure your construction is correct.</p>
+			<p>Describe your method and explain when it works and when it doesn't.</p>
+		</div>
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./sss3.json">&nbsp;</div>
+			<div class="sketch_caption"><p>Video hints are not yet available.</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">4 Superpose SSS Triangles</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer">
+			<p>Now for the main event: <strong>Construct and Prove the SSS Theorem.</strong></p>
+			<ul>
+				<li>If the two triangles are similarly handed (both CW or both CCW), first reflect `triABC` in one of its sides.</li>
+				<li>Then use the tools twice to superpose the image of `overline(AB)` on `overline(DE)`.</li>
+				<li>Finally reflect in `overline(DE)` to superpose the image of `triABC` on `triDEF`.</li>
+				<li>Use the drag test to make sure that your construction is robust.</li>
+				<li>Use what you know about reflection and perpendicular bisectors to explain why each step of your construction works, and why your results prove the SSS Theorem. Pay particular attention to the last step (when you reflected in `overline(DE)`). Why did this step superpose the image of `C` on `F`?</li>
+			</ul>
+			<p>The sketch has four pages, each of which represents a different possible case for congruent triangles. At a minimum, you should solve page 3, as well as either page 1 or page 2. The last case, page 4, is important, even though it's not as interesting as the others.</p>
+		</div>
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./sss4.json">&nbsp;</div>
+			<div class="sketch_caption"><p>Video hints are not yet available.</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>			
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead" style="font-size: .8rem">5 The Fine Print</p>
+	<div class="fcSectionBody finePrint">
+		<p><strong>Requirements:</strong></p>
+		<p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
+		<p><strong>Release Information</strong></p>
+	 <!--#include virtual="/includes/v4.5/js/js-version.html" -->
+		<p><strong>Update History:</strong></p>
+	 <div class="updateHistory">
+			17 Apr 2018: Now includes construction history, more animations, closer connection to proof, etc.<br>
+			24 Oct 2017: Created this page.<br>
+	 </div>
+		<br>
+	</div>
+</div>
+
+</div> <!-- bodyText -->
+
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+       
+</body>
+</html>

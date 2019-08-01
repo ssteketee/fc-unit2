@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
 
 	<title>Unit 2</title>
-	<meta name="description" content="This page supports the Forging Mathematical Connections NSF Project.">
+	<meta name="description" content="This page supports the Forging Dynamic Connections NSF Project.">
 				 
-  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/fc/includes/head.shtml" -->
   <!--#include virtual="/includes/mathjax.html" -->
 
 </head>
@@ -19,9 +19,9 @@
 					<p>This site supports the NSF project on Technology-Rich Units for Future Secondary Teachers: Forging Dynamic Connections Between Geometry and Functions, which is part of the NSF's program on Improving Undergraduate STEM Education (IUSE).</p>
 
           <div class="section">
-            <p class="fcSectionHead">▿ Unit 2: Experiment with Composition and Congruence</p>
+            <p class="fcSectionHead">Unit 2: Experiment with Composition and Congruence</p>
             <div class="fcSectionBody fcVisible" style="font-size:1rem; line-height: 1.1rem;">
-						<!--#include virtual="/fc/unit2/unit2.html" -->
+						<!--#include virtual="./unit2.html" -->
             </div>
           </div>
 				</div>

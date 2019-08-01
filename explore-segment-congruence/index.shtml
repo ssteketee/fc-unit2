@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/fc/includes/head.shtml" -->
   <!--#include virtual="/includes/mathjax.html" -->
 
-	<title>Segment Congruence</title>
+	<title>Explore Segment Congruence</title>
 	<meta name="description" content="This page supports the Experiment with Segment Congruence activity.">
 		
 	<script type="text/javascript">
@@ -21,11 +21,13 @@
 <div id="templatemo_content">
 <div id="templatemo_full_column">
 <div class="text_area">
-<div class="title lessonTitle">Experiment with Segment Congruence</div>
+<div class="title lessonTitle">Explore Segment Congruence</div>
 <div class = "bodyText">
 
+<p>If two segments have equal lengths, can you always transform the first segment so that its image lies exactly on top of the second? In this activity you’ll experiment by using different transformations </p>
+
 <div class="section">
-	<p class="fcSectionHead">1 Sketch</p>
+	<p class="fcSectionHead fcOpen jaxContainer">1 Superpose `overline(AB)` on `overline(CD)`</p>
 	<div class="jaxContainer">
 		<p>Using this sketch, you’ll demonstrate that pairs of segments are congruent by finding multiple ways to combine transformations to place one segment exactly on top of the other.</p>
 	</div>
@@ -43,9 +45,9 @@
 	<div class="jaxContainer">
 		<p>Using this sketch, you’ll construct reflections to demonstrate that pairs of segments are congruent.</p>
 	</div>
-	<div class="fcSectionBody fcVisible">
+	<div class="fcSectionBody">
 		<div class="sketch_container" style="width: 960px;">
-			<div class="sketch_canvas" id="sketch2" data-url="./segment-congruence-reflection.json">&nbsp;</div>
+			<div class="sketch_canvas" id="sketch2" data-delayed-url="./segment-congruence-reflection.json">&nbsp;</div>
 			<div class="page_buttons"></div>
 			<button class="widget_button"></button>			
 		</div>		
