@@ -53,16 +53,22 @@
 <div class="section">
 	<p class="fcSectionHead">2 Mystery 2: Choose the Function</p>
 	<div class="fcSectionBody">
-	<div class="jaxContainer twoColumn">
-		<p>On each page, you must first figure out what transformation connects the two triangles.</p>
-		<p>Then perform the necessary construction to superpose an image of `triABC` on `triDEF`.</p>
-		<p>Record the features you used, on each page, to identify the correct function to use.</p>
-	</div>
 		<div class="sketch_container">
 			<div class="sketch_canvas" data-delayed-url="./mystery-transformations2.json">Loading...</div>
-			<div class="util-menu-btn"></div>
-			<div class="page_buttons"></div>
-			<button class="widget_button"></button>
+      <div class="button_area">
+        <div class="util-menu-btn"></div>
+        <div class="page_buttons"></div>
+        <button class="widget_button"></button>
+      </div>
+      <div class="jaxContainer twoColumn" style="clear:both">
+        <p>On each page:</p>
+        <ul>
+          <li>Figure out what transformation connects the two triangles.</li>
+          <li>Then perform the necessary construction to superpose an image of `triABC` on `triDEF`.</li>
+          <li>Drag points `A, B,`and `C` to check your work.</li>
+        </ul>
+        <p class="pencil">For each page draw a picture showing the function you used. Your pictures should describe the function by showing its center point, angle, mirror, vector, and/or scale factor.</p>
+      </div>
 		</div>		
 	</div>
 </div>				
