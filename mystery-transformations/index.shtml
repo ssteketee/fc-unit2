@@ -10,8 +10,9 @@
 
 	<script type="text/javascript">
 		WIDGETS.setWidgetsPrefs ([
-			{widget: "visibility", pages: "none"}, // enable style widgets for all pages, and visibility widget for none
-			{widget: "visibility", sketches: "mystery1"}
+			{pages: "none"}, // disable all widgets for all pages of all sketches
+			{widget: "style,label,trace", sketches: "mystery1"},
+      {widget: "style,trace", sketches: "mystery2,mystery3"}
 		]);
 	</script>
 
@@ -54,7 +55,7 @@
 	<p class="fcSectionHead">2 Mystery 2: Choose the Function</p>
 	<div class="fcSectionBody">
 		<div class="sketch_container">
-			<div class="sketch_canvas" data-delayed-url="./mystery-transformations2.json">Loading...</div>
+			<div class="sketch_canvas" id="mystery2" data-delayed-url="./mystery-transformations2.json">Loading...</div>
       <div class="button_area">
         <div class="util-menu-btn"></div>
         <div class="page_buttons"></div>
@@ -77,10 +78,17 @@
 	<p class="fcSectionHead">3 Mystery 3: Match the Domain and Range</p>
 	<div class="fcSectionBody">
 		<div class="sketch_container">
-			<div class="sketch_canvas" data-delayed-url="./mystery-transformations3.json">Loading...</div>
+			<div class="sketch_canvas" id="mystery3" data-delayed-url="./mystery-transformations3.json">Loading...</div>
 			<div class="util-menu-btn"></div>
 			<div class="page_buttons"></div>
 			<button class="widget_button"></button>
+			<div class=" jaxContainer twoColumn" style="clear: both; border-top: 1px solid black;">
+        <ul>
+          <li>Choose a function tool and restrict `x` to `triABC` as its domain.</li>
+          <li>Then adjust the transformation so that `triDEF` is the range.</li>
+        </ul>
+        <p class="pencil">Draw a picture showing the function you used, including any center point, angle, mirror, vector, and/or scale factor.</p>
+      </div>
 		</div>		
 	</div>
 </div>

@@ -48,9 +48,49 @@
 		</div>
 		<div class="sketch_container">
 			<div class="sketch_canvas" data-url="./mirror-mirror-handedness.json">&nbsp;</div>
-			<p><a href="mirror-mirror-worksheet.pdf">Download lesson worksheet</a></p>
-			<div class="page_buttons"></div>
-			<button class="widget_button"></button>			
+			<div class="button_area">
+        <p><a href="mirror-mirror-worksheet.pdf">Download lesson worksheet</a></p>
+        <div class="page_buttons"></div>
+        <button class="widget_button"></button>
+      </div>
+			<div class="page_toggle p_1 twoColumn jaxContainer" style="clear: both;">
+        <p>To determine the handedness of `triABC,` vary `x` and observe its motion as it goes from `A` to `B` to `C.`</p>
+        <p class="pencil">Does it travel clockwise or counter-clockwise on its domain? This is its handedness.</p> 
+        <p class="pencil">Reflect `x` and its domain (`triABC`). When you vary `x`, does `r(x)` move clockwise or counter-clockwise?</p>
+        <p class="pencil">Is its handedness the same as `x,` or different from `x?`</p> 
+        <p>Drag `A, B,` and `C` to experiment with different shapes.</p>
+        <p>Find a shape that makes `x` travel with the opposite handedness as before.</p>
+        <p class="pencil">What effect does this have on the handedness of the movement of `r(x)?`</p>
+      </div>
+      <div class="page_toggle p_2 twoColumn jaxContainer" style="clear: both;">
+        <p class="pencil">What is the handedness of `triDEF?`</p>
+        <p class="pencil">Rotate `triDEF.` What is the handedness of `R(triDEF)?` </p>
+        <p class="pencil">Do `triDEF` and `R(triDEF)` have the same handedness or opposite handedness?</p>
+        <p>Drag `D, E,` and `F` to change the shape of `triDEF.` Try different angles and center locations.</p>
+        <p class="pencil">How did changing the shape affect the handedness of `triDEF` and `R(triDEF)?`</p>
+      </div>
+      <div class="page_toggle p_3 twoColumn jaxContainer" style="clear: both;">
+        <p class="pencil">What is the handedness of `triABC?`</p>
+        <p class="pencil">Glide reflect `triABC.` What is the handedness of `G(triABC)?`</p> 
+        <p class="pencil">Do `triABC` and `G(triABC)` have the same handedness or opposite handedness?</p>
+        <p>Drag `A, B,` and `C` to investigate different shapes. Also try different vectors.</p>
+        <p class="pencil">How did your changes affect the handedness of `triABC` and `G(triABC)?`</p>
+      </div>
+      <div class="page_toggle p_4 twoColumn jaxContainer" style="clear: both;">
+        <p class="pencil">What is the handedness of `triABC`?</p>
+        <p class="pencil">Translate `triABC`. What is the handedness of `T(triABC)`? </p>
+        <p class="pencil">Do `triABC` and `T(triABC)` have the same handedness or opposite handedness?</p>
+        <p>Drag `A, B,` and `C,` and change the translation vector.</p>
+        <p class="pencil">What can you say about the effect of translation on handedness?</p>
+      </div>
+      <div class="page_toggle p_5 twoColumn jaxContainer" style="clear: both;">
+        <p class="pencil">What is the handedness of `triPQR?`</p>
+        <p class="pencil">Dilate `triPQR.` What is the handedness of `D(triPQR)?`</p>
+        <p class="pencil">Do `triPQR` and `D(triPQR)` have the same handedness or opposite handedness?</p>
+        <p>Experiment with different triangle shapes.</p>
+        <p>Experiment with different locations of center `C` and different values of scale factor `s` (including negative values).</p>
+        <p class="pencil">Describe your observations and conclusions.</p>
+      </div>
 		</div>		
 	</div>
 </div>				
