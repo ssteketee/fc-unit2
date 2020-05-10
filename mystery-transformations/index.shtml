@@ -8,14 +8,6 @@
 	<title>Mystery Transformations</title>
 	<meta name="description" content="This page supports the Mystery Transformations activity.">
 
-	<script type="text/javascript">
-		WIDGETS.setWidgetsPrefs ([
-			{pages: "none"}, // disable all widgets for all pages of all sketches
-			{widget: "style,label,trace", sketches: "mystery1"},
-      {widget: "style,trace", sketches: "mystery2,mystery3"}
-		]);
-	</script>
-
 </head>
 <body>
 <div id="templatemo_container"> 
@@ -25,88 +17,222 @@
 <div class="text_area">
 <div class="title lessonTitle">Mystery Transformations</div>
 <div class = "bodyText">
-
-	<div class="jaxContainer twoColumn">
-		<p>In each mystery you are given two triangles that are related by a function belonging to one of five function families: rotate, reflect, translate, glide reflect, or dilate. Your task is use one of the tools to construct an image of `triABC` and then adjust your function (by adjusting the center, mirror, vector, angle, of scale factor) to demonstrate that the two triangles are congruent or similar.</p>
-		<p><strong>Mystery 1:</strong> Each page tells you what function family to use. Your task is to apply that function to `triABC` and then adjust your function so that `triA'B'C'` lies directly on top of `triDEF`.</p>
-		<p><strong>Mystery 2:</strong> On each page you have to decide which function family to use before you apply your function to `triABC` and adjust it to superpose `triA'B'C'` on `triDEF`.</p>
-		<p><strong>Mystery 3:</strong> The function tools give you only an independent and dependent variable. On each page you have to choose the function family, restrict `x` to `triABC` as its domain, and adjust your function so that the range is `triDEF`.</p>
-	</div>
 	
 <div class="section">
-	<p class="fcSectionHead fcOpen">1 Mystery 1: Demonstrate Congruence or Similarity</p>
+	<p class="fcSectionHead fcOpen">1 Mystery 1: Warmup</p>
 	<div class="fcSectionBody fcVisible">
-	<div class="jaxContainer twoColumn">
-		<p>On each page, use a different transformations to superpose an image of `triABC` on `triDEF`.</p>
-		<p>You can use the designated transformation tool and adjust the function rule to superpose the two triangles. You may find the construction tools useful in this process.</p>
-		<p>Press the New Case button for a new `triABC` and a new function rule (still using the same function family).</p>
-		<p>How can the construction tools make it easier to solve new cases?</p>
-	</div>
-		<div class="sketch_container">
-			<div class="sketch_canvas" id="mystery1" data-url="./mystery-transformations1.json">Loading...</div>
-			<div class="util-menu-btn"></div>
-			<div class="page_buttons"></div>
-			<button class="widget_button"></button>
-		</div>		
-	</div>
-</div>				
 
-<div class="section">
-	<p class="fcSectionHead">2 Mystery 2: Choose the Function</p>
-	<div class="fcSectionBody">
 		<div class="sketch_container">
-			<div class="sketch_canvas" id="mystery2" data-delayed-url="./mystery-transformations2.json">Loading...</div>
-      <div class="button_area">
+			<div class="sketch_canvas" data-delayed-url="./mystery-transformations1.json">Loading...</div>
+			<div class="button_area">
         <div class="util-menu-btn"></div>
         <div class="page_buttons"></div>
         <button class="widget_button"></button>
       </div>
-      <div class="jaxContainer twoColumn" style="clear:both">
-        <p>On each page:</p>
-        <ul>
-          <li>Figure out what transformation connects the two triangles.</li>
-          <li>Then perform the necessary construction to superpose an image of `triABC` on `triDEF`.</li>
-          <li>Drag points `A, B,`and `C` to check your work.</li>
-        </ul>
-        <p class="pencil">For each page draw a picture showing the function you used. Your pictures should describe the function by showing its center point, angle, mirror, vector, and/or scale factor.</p>
+      <div class="twoColumn">
+        <div class="page_toggle p_1">
+          <p>Reflect `triABC.` Make its reflected image fit `triDEF` exactly.</p>
+          <p class="pencil">What did you notice while adjusting the mirror?</p>
+          <p class="pencil">What did you wonder?</p>
+        </div>
+        <div class="page_toggle p_2">
+          <p>Rotate `triABC` so it exactly fits `triDEF.`</p>
+          <p class="pencil">What did you notice while adjusting the angle or center?</p>
+          <p class="pencil">What did you wonder?</p>
+        </div>
+        <div class="page_toggle p_3">
+          <p>Dilate `triABC` so it exactly fits `triDEF.`</p>
+          <p class="pencil">What did you notice while adjusting the scale or center?</p>
+          <p class="pencil">What did you wonder?</p>
+        </div>
+        <div class="page_toggle p_4">
+          <p>Translate `triABC` so it exactly fits `triDEF.`</p>
+          <p class="pencil">What did you notice while adjusting the vector?</p>
+          <p class="pencil">What did you wonder?</p>
+        </div>
+        <div class="page_toggle p_5">
+          <p>Glide-reflect `triABC` so it exactly fits `triDEF.`</p>
+          <p class="pencil">What did you notice while adjusting the mirror vector?</p>
+          <p class="pencil">What did you wonder?</p>
+        </div>
+        <div>
+          <p>Press the <em>New Case</em> button if you want a new challenge.</p>
+          <p class="pencil">Is this transformation an <span class="tipLink" data-tip="a transformation that preserves distances">isometry</span> or a <span class="tipLink" data-tip="a transformation that changes all distances by the same scale factor">similarity?</span></p>
+        </div>        
       </div>
-		</div>		
-	</div>
-</div>				
-
-<div class="section">
-	<p class="fcSectionHead">3 Mystery 3: Match the Domain and Range</p>
-	<div class="fcSectionBody">
-		<div class="sketch_container">
-			<div class="sketch_canvas" id="mystery3" data-delayed-url="./mystery-transformations3.json">Loading...</div>
-			<div class="util-menu-btn"></div>
-			<div class="page_buttons"></div>
-			<button class="widget_button"></button>
-			<div class=" jaxContainer twoColumn" style="clear: both; border-top: 1px solid black;">
+      <div class="twoColumn summary">
+        <p><strong>When you’ve done all pages...</strong></p>
         <ul>
-          <li>Choose a function tool and restrict `x` to `triABC` as its domain.</li>
-          <li>Then adjust the transformation so that `triDEF` is the range.</li>
+          <li class="pencil">For which function families were you able to get an exact fit?</li>
+          <li class="pencil">Of your successful efforts, which was hardest? How did you overcome the difficulty?</li>
         </ul>
-        <p class="pencil">Draw a picture showing the function you used, including any center point, angle, mirror, vector, and/or scale factor.</p>
       </div>
 		</div>		
 	</div>
 </div>
 
 <div class="section">
-	<p class="fcSectionHead">4 Objectives</p>
+	<p class="fcSectionHead">2 Mystery 2: Discover Shortcuts</p>
 	<div class="fcSectionBody">
-		<div class="jaxContainer twoColumn">
-			<p>As you perform the activities in this lesson, you will:</p>
-			<ol>
-				<li>Apply transformations to triangles.</li>
-				<li>Use transformations to superpose one triangle on another, experimenting with the function rule to make them fit exactly.</li>
-				<li>Determine which transformations are isometries; that is, which preserve distances.</li>
-				<li>Describe the meaning of “superpose” and “superposition” in your own words.</li>
-				<li>Given two triangles, identify which transformation allows you to superpose one on the other.</li>
-				<li>Describe transforming one point to another is related to transforming one triangle to another.</li>
-			</ol>
+		<div class="sketch_container">
+      <div class="jaxContainer twoColumn">
+        <p>These five pages are similar to the warmup, but you have several extra tools available. You can use these tools to find shortcuts that make it easy to solve superposition problems. For instance, you might invent a shortcut for finding the mirror for a reflect function, or a shortcut for finding the center point for a dilate function.</p>
+      </div>
+			<div class="sketch_canvas" data-delayed-url="./mystery-transformations2.json">Loading...</div>
+			<div class="button_area">
+        <div class="util-menu-btn"></div>
+        <div class="page_buttons"></div>
+        <button class="widget_button"></button>
+      </div>
+      <div class = "twoColumn">
+        <div class="page_toggle p_1">
+          <p>Reflect `triABC` so it exactly fits `triDEF.` Then use one or more of the other three tools to figure out a shortcut you could have used to find the mirror.</p>
+          <p><strong>Hint:</strong> Use the <em>Trace Widget</em> to turn off Fading, and then press the <em>Animate Reflection</em> button. Do the traces give you any ideas about what construction might have helped you find the mirror?</p>
+        </div>
+        <p class="page_toggle p_1 pencil">If you can figure out a shortcut for constructing the mirror, describe your shortcut.</p>
+        <p class="page_toggle p_2">Dilate `triABC` so it exactly fits `triDEF.` Then use one or more of the other three tools to figure out a shortcut for finding the center for dilation.</p>
+        <p class="page_toggle p_3">Rotate `triABC` so it exactly fits `triDEF.` Then use one or more of the other three tools to figure out a shortcut for finding the center for rotation.</p>
+        <p class="page_toggle p_4">Translate `triABC` so it exactly fits `triDEF.` Then figure out a shortcut for finding the vector for translation.</p>
+        <p class="page_toggle p_5">Glide-reflect `triABC` so it exactly fits `triDEF.` Then use one or more of the other three tools to figure out a shortcut for finding the mirror vector.</p>
+        <p>Reset the page and press <em>New Case</em> to make sure your shortcut works with a different <span class="page_toggle p_1">reflect</span><span class="page_toggle p_2">dilate</span> function.</p>
+        <p class="pencil">Is this transformation an <span class="tipLink" data-tip="a transformation that preserves distances">isometry</span> or a <span class="tipLink" data-tip="a transformation that changes all distances by the same scale factor">similarity?</span></p>
+      </div>
+      <div class="twoColumn summary">
+        <p><strong>When you’ve done all pages...</strong></p>
+        <ul>
+          <li class="pencil">For which functions were you able to invent a shortcut?</li>
+          <li class="pencil">Which shortcut did you like the most? Why?</li>
+          <li class="pencil">Draw a picture showing that shortcut, along with the two triangles that it works for.</li>
+        </ul>
+      </div>
 		</div>		
+	</div>
+</div>		
+
+<div class="section">
+	<p class="fcSectionHead">3 Mystery 3: Choose the Function</p>
+	<div class="fcSectionBody">
+		<div class="sketch_container">
+      <div class="jaxContainer twoColumn">
+        <p>Each page shows a different function family—but which one?</p>
+        <p>You can use <span class="tipLink" data-tip="Press <i>Vary x.</i> Does <i>x</i> turn right or left when it visits the vertices in order? Does  <i>x'</i> turn turn the same, or opposite, from <i>x?</i>">handedness</span> to help you decide.</p>
+        <p>When you think you know the function family, use the shortcut you invented invented for that family, either before or after actually transforming `triABC.`</p>
+      </div>
+			<div class="sketch_canvas" data-delayed-url="./mystery-transformations3.json">Loading...</div>
+      <div class="button_area">
+        <div class="util-menu-btn"></div>
+        <div class="page_buttons"></div>
+        <button class="widget_button"></button>
+      </div>
+      <div class="jaxContainer twoColumn" style="clear:both">
+        <ul>
+          <li>Figure out which function connects the triangles. </li>
+          <li>Use that function to <span class="tipLink" data-tip="Two figures are <em>superposed</em> if one fits exactly on the other.">superpose</span> an image of `triABC` on `triDEF`.</li>
+          <li><span class="tipLink" data-tip="Don’t drag points that would change the function rule.">Drag points `A, B,`and `C`</span> to make sure the triangles remain superposed.</li>
+        </ul>
+        <p class="pencil">Draw a picture showing the function you used. Your picture should show both triangles along with all the parts of the function rule (center point, angle, mirror, vector, and/or scale factor).</p>
+        <p class="pencil">Did you use a shortcut to help adjust your function rule? If so, describe your shortcut.</p>
+      </div>
+      <div class="twoColumn summary">
+        <p><strong>When you’ve done all pages...</strong></p>
+        <ul>
+          <li class="pencil">For one of your functions, draw a picture showing the triangles, the function rule, and the shortcut. Beneath the picture, write a description explaining how the shortcut connects to the function rule.</li>
+        </ul>
+      </div>
+    </div>		
+	</div>
+</div>				
+
+<div class="section">
+	<p class="fcSectionHead">4 Mystery 4: Exploit Your Shortcuts</p>
+	<div class="fcSectionBody">
+		<div class="sketch_container">
+      <div class="jaxContainer twoColumn">
+        <p>As before, decide which function family connects the triangles on each page.</p>
+        <p>But on these pages you’ll do your shortcut construction first, and use the shortcut to help you transform `triABC`.</p>
+      </div>
+			<div class="sketch_canvas" data-delayed-url="./mystery-transformations4.json">Loading...</div>
+      <div class="button_area">
+        <div class="util-menu-btn"></div>
+        <div class="page_buttons"></div>
+        <button class="widget_button"></button>
+      </div>
+      <div class="jaxContainer twoColumn" style="clear:both">
+        <ul>
+          <li>Figure out which function connects the triangles.</li>
+          <li>Before you transform the triangles, construct your shortcut for the function.</li>
+          <li>Use your shortcut construction to help you construct the transformation function.</li>
+        </ul>
+<!--        <p class="pencil">For each page draw a picture showing the function you used. Your picture should show both triangles along with the function rule’s center point, angle, mirror, vector, and/or scale factor.</p>
+-->        <p class="pencil">Did you use a shortcut to help adjust your function rule? If so, describe your shortcut.</p>
+      </div>
+      <div class="twoColumn summary">
+        <p><strong>When you’ve done all pages...</strong></p>
+        <ul>
+          <li class="pencil">For one of your functions, draw a picture showing the triangles and the function rule, and the shortcut.</li>
+          <li>Beneath the picture, write a description explaining how the shortcut actually helped you construct the function rule.</li>
+          <li>Did the shortcut contruct all parts of the function rule, or only some parts of the rule? What parts (if any) did you still have to adjust?</li>
+        </ul>
+      </div>
+		</div>		
+	</div>
+</div>				
+
+<div class="section">
+	<p class="fcSectionHead">5 Mystery 5: Match Domain and Range</p>
+	<div class="fcSectionBody">
+		<div class="sketch_container">
+			<div class="sketch_canvas" id="mystery4" data-delayed-url="./mystery-transformations5.json">Loading...</div>
+			<div class="button_area">
+        <div class="util-menu-btn"></div>
+        <div class="page_buttons"></div>
+        <button class="widget_button"></button>
+      </div>
+			<div class=" jaxContainer twoColumn" style="clear: both; border-top: 1px solid black;">
+        <ul>
+          <li>Choose a function tool and restrict `x` to `triABC` as its domain.</li>
+          <li>Then adjust the transformation so that `triDEF` is the range.</li>
+        </ul>
+        <p class="pencil">Draw a picture showing the function you used, including any center point, angle, mirror, vector, and/or scale factor.</p>
+        <p class="pencil">If you used a shortcut to make it easy to adjust your function rule, show the shortcut in your picture.</p>
+        <p class="pencil">When you vary `x,` does the image point move faster, slower, or at the same speed as `x?`</p>
+      </div>
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">5 Accomplishments</p>
+	<div class="fcSectionBody">
+    
+		<p>To prepare for the summary discussion, use the prompts below to record your accomplishments.</p>
+		<div class="jaxContainer twoColumn">
+      <p><strong>Activity 1 (Warmup):</strong> Each page has a different function-family tool with which you superposed an image of `triABC` on `triDEF.`</p>
+      <ul>
+        <li class="pencil">For which function families did you achieve the goal?</li>
+        <li class="pencil">Which success was hardest? How did you overcome the difficulty?</li>
+      </ul>
+
+      <p><strong>Activity 2 (Discover Shortcuts):</strong> Each page has a function-family tool and three construction tools. With the construction tools you invented an easier way to superpose an image of `triABC` on `triDEF.`</p>
+      <ul>
+        <li class="pencil">For which functions did you invent a shortcut?</li>
+        <li class="pencil">Which shortcut did you like the most? Why?</li>
+      </ul>
+      
+      <p><strong>Activity 3 (Choose the Function):</strong> Each page has five function-family tools and three construction tools. By identifying the right family and using a shortcut, you superposed an image of `triABC` on `triDEF.`</p>
+      <ul>
+        <li class="pencil">Which family was easiest to identify? Why?</li>
+        <li class="pencil">Which family was hardest to identify? Why?</li>
+        <li class="pencil">How did your shortcut discoveries help you identify the right family?</li>
+      </ul>
+      
+      <p><strong>Activity 4 (Match the Domain and Range):</strong> Each page has all eight tools, but the function tools only transform points. You identified the family, restricted `x` to `triABC,` and superposed the range on `triDEF.`</p>
+      <ul>
+        <li class="pencil">Can you construct the same superposition with point tools as with triangle tools? Which is easier? Why?</li>
+        <li class="pencil">For which family did the variables move at different speeds?</li>
+        <li class="pencil">How is variable speed connected to whether a function is an isometry or a similarity?</li>
+      </ul>
+		</div>
 	</div>
 </div>
 
